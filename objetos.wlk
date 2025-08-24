@@ -30,12 +30,15 @@ object muñeca {
 
 object placa {
     var color = verde
-    method color(nuevoColor) {
+    method nuevoColor(nuevoColor) {
         color = nuevoColor
     } 
+    method color() = color
+
     method material() = cobre 
     var peso = 1
-    method peso(nuevoPeso) { 
+    method peso() = peso
+    method nuevoPeso(nuevoPeso) { 
         peso = nuevoPeso    
     }
 }
