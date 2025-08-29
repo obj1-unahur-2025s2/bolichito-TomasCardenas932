@@ -10,7 +10,7 @@ object rosa{
 
 object estefanía{
   method leGusta(algo) {
-    return algo.esfuerte()
+    return algo.color().esfuerte()
   }
 }
 
@@ -19,7 +19,7 @@ object estefanía{
 
 object luisa{
     method leGusta(algo) {
-        return algo.esBrillante()
+        return algo.material().esBrillante()
     }
 }
 
@@ -27,6 +27,6 @@ object luisa{
 
 object juan{
     method leGusta(algo) {
-        return (1200 <= algo.peso() <= 1800) or not algo.esfuerte()
+        return (1200 <= algo.peso() <= 1800) or not algo.color().esfuerte()
     }
 }

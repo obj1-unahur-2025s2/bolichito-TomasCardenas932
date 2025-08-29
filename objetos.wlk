@@ -22,7 +22,9 @@ object biblioteca {
 object muñeca {
     method color() = celeste
     method material() = vidrio 
+    
     var peso = 1
+    method peso() =peso
     method peso(nuevoPeso) { 
         peso = nuevoPeso    
     }
@@ -36,6 +38,7 @@ object placa {
     method color() = color
 
     method material() = cobre 
+
     var peso = 1
     method peso() = peso
     method nuevoPeso(nuevoPeso) { 

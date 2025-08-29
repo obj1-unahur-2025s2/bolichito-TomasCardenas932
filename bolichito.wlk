@@ -31,5 +31,8 @@ object bolichito {
         return mostrador.color() == unColor || vidriera.color() == unColor
     }
 
+    method sePuedeOfrecer(unaPersona){
+      return unaPersona.leGusta(vidriera) or unaPersona.leGusta(mostrador) 
+    }
     
 }
